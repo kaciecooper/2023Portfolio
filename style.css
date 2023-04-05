@@ -11,9 +11,20 @@
   --italic-font: "EB Garamond", serif;
 }
 
+@font-face {
+    font-family: "Romie";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('/fonts/romie.woff2') format('woff2');}
 
 
-
+@font-face {
+    font-family: "Romie Italic";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('/fonts/romie-italic.woff2') format('woff2');}
 
 * {
   box-sizing: border-box;
@@ -198,7 +209,7 @@ body {
   transition-delay: 0.2s;
 }
 .main-title {
-  font-family: var(--italic-font);
+  font-family: Romie-italic;
   font-size: 70px;
   font-weight: 400;
   margin-top: 10px;
