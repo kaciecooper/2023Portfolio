@@ -1,3 +1,6 @@
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
 :root {
@@ -633,6 +636,8 @@ body {
   font-size: 100px;
   font-weight: 400;
   margin-top: 10px;
+
+  />
   line-height: 1em;
   transition-delay: 0.3s;
 }
@@ -852,4 +857,4 @@ body {
   background-color: var(--coral-bg);
 }
 
-*/
+
